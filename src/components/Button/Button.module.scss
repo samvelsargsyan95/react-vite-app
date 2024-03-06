@@ -1,0 +1,21 @@
+ .button {
+  padding: 8px 20px;
+  border: unset;
+  background-color: lightblue;
+  transition: all 0.4s;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+  
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+.button.active {
+  background-color: rgb(71, 71, 249);
+  color: white;
+}

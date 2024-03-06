@@ -1,0 +1,25 @@
+
+form {
+    width: 50%;
+
+    & .control {
+        border-radius: 5px;
+        border: 1px solid lightgrey;
+        height: 40px;
+        padding: 0 10px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    
+    & label {
+        color: rgb(138, 138, 138);
+        font-style: italic;
+    }
+
+    & textarea {
+        height: 100px !important;
+        padding: 10px !important;
+    }
+}
+
+
